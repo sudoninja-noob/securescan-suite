@@ -11,7 +11,7 @@
 **A fully client-side security scanning suite for SBOM, SCA, and Firmware analysis.**  
 Zero installation. Zero backend. Drop a file, get a report.
 
-[🔍 Live Demo](#) · [📖 Documentation](#usage) · [🐛 Report a Bug](https://github.com/sudoninja-noob/securescan-suite/issues) · [💡 Request a Feature](https://github.com/sudoninja-noob/securescan-suite/issues)
+[🔍 Live Demo](#usage) · [📖 Documentation](#usage) · [🐛 Report a Bug](https://github.com/sudoninja-noob/securescan-suite/issues) · [💡 Request a Feature](https://github.com/sudoninja-noob/securescan-suite/issues)
 
 </div>
 
@@ -262,15 +262,15 @@ Every CVE displayed includes a direct deep link to `https://nvd.nist.gov/vuln/de
 ```bash
 git clone https://github.com/sudoninja-noob/securescan-suite.git
 cd securescan-suite
-open sbom-scanner_V7.html        # macOS
-xdg-open sbom-scanner_V7.html    # Linux
-start sbom-scanner_V7.html       # Windows
+open safari SecureScan_Suite_V6.0.html        # macOS
+fireforx SecureScan_Suite_V6.0.html           # Linux
+open in browser  SecureScan_Suite_V6.0.html   # Windows
 ```
 
 ### Option 2 — GitHub Pages
 Visit the live hosted version at:
 ```
-https://sudoninja-noob.github.io/securescan-suite/
+https://sudoninja-noob.github.io/tool/SecureScan_Suite_V6.0.html
 ```
 
 ### Scanning a manifest (SBOM)
@@ -303,7 +303,7 @@ screenshots/
 ├── sbom-scanner.png
 ├── sca-scanner.png
 ├── firmware-scanner.png
-└── export-reports.png
+└── SecureScan_Suite.png
 ```
 
 ---
@@ -313,7 +313,7 @@ screenshots/
 
 <p align="center">
   <a href="https://youtu.be/mRZiuCSYBSs?si=4amXYW1Jl-QmeC5X">
-    <img src="https://img.youtube.com/vi/YOUR_VIDEO_ID/maxresdefault.jpg" 
+    <img src="https://img.youtube.com/vi/mRZiuCSYBSs/maxresdefault.jpg" 
          alt="SecureScan Suite – SBOM | SCA | Firmware Security Scanner Demo" 
          width="80%" />
   </a>
@@ -361,8 +361,9 @@ securescan-suite/
 ├── README.md                  # This file
 │
 ├── sample-reports/            # Example exported reports
-│   ├── sbom-report-sample.html
-│   └── sca-report-sample.html
+│   ├── fw-sca-IoTGoat-raspberry-pi2-sysupgrade-img.html
+|   ├── sbom-report-AndroidManifest-xml.html
+│   └── sca-report-InsecureBankv2-apk.html
 │
 └── screenshots/               # UI screenshots for README
 ```
@@ -373,7 +374,7 @@ securescan-suite/
 
 | Version | Changes |
 |---------|---------|
-| **v6.0 (V7)** | Full redesign — 3 isolated scanner cards, fixed SBOM result placement, all 21 firmware components, OpenSSL only where relevant, 5-format exports per scanner |
+| **v6.0** | Full redesign — 3 isolated scanner cards, fixed SBOM result placement, all 21 firmware components, OpenSSL only where relevant, 5-format exports per scanner |
 | **v5.0** | Added Firmware Scanner with SBOM feed integration, dual HTML+XLSX SCA export |
 | **v4.0** | Improved HTML report design matching CAST Highlight format, policy gates, bar charts |
 | **v3.0** | Excel (.xlsx) export with multi-sheet workbooks |
@@ -384,11 +385,10 @@ securescan-suite/
 
 ## Author
 
-**Sanjay** — [@sudoninja](https://sudoninja-noob.github.io/)
+**Sanjay Singh** — [@sudoninja](https://sudoninja-noob.github.io/)
 
 - 🔐 OSCP · CRTP · CPTE · CEH certified
-- 📚 Published author of 6 cybersecurity books
-- 🔴 Synack Red Team operator
+- 📚 Published author of cybersecurity books
 - 🏗️ Security architect specializing in application security, penetration testing, and compliance
 
 ---
