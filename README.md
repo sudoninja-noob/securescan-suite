@@ -345,7 +345,7 @@ securescan-suite/
 
 | Version | Changes |
 |---------|---------|
-| **v6.0 (V7)** | Full redesign — 3 isolated scanner cards, fixed SBOM result placement, all 21 firmware components, OpenSSL only where relevant, 5-format exports per scanner |
+| **v6.0 ** | Full redesign — 3 isolated scanner cards, fixed SBOM result placement, all 21 firmware components, OpenSSL only where relevant, 5-format exports per scanner |
 | **v5.0** | Added Firmware Scanner with SBOM feed integration, dual HTML+XLSX SCA export |
 | **v4.0** | Improved HTML report design matching CAST Highlight format, policy gates, bar charts |
 | **v3.0** | Excel (.xlsx) export with multi-sheet workbooks |
