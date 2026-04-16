@@ -270,7 +270,7 @@ start sbom-scanner_V7.html       # Windows
 ### Option 2 — GitHub Pages
 Visit the live hosted version at:
 ```
-https://sudoninja-noob.github.io/tool/SecureScan_Suite_V6.0.html
+https://sudoninja-noob.github.io/securescan-suite/
 ```
 
 ### Scanning a manifest (SBOM)
@@ -307,6 +307,34 @@ screenshots/
 ```
 
 ---
+
+
+## 🎥 Product Walkthrough
+
+<p align="center">
+  <a href="https://youtu.be/mRZiuCSYBSs?si=4amXYW1Jl-QmeC5X">
+    <img src="https://img.youtube.com/vi/YOUR_VIDEO_ID/maxresdefault.jpg" 
+         alt="SecureScan Suite – SBOM | SCA | Firmware Security Scanner Demo" 
+         width="80%" />
+  </a>
+</p>
+
+<p align="center">
+👉 Click the image above to watch the full demo on YouTube
+</p>
+
+---
+
+## ⚡ What is SecureScan Suite?
+
+A fully **client-side security scanning suite** for:
+- 📦 SBOM (Software Bill of Materials)
+- 🧪 SCA (Binary / Installer analysis)
+- 📡 Firmware vulnerability extraction
+
+✔ Zero backend  
+✔ No installation  
+✔ Runs entirely in browser  
 
 ## Tech Stack
 
@@ -345,7 +373,7 @@ securescan-suite/
 
 | Version | Changes |
 |---------|---------|
-| **v6.0** | Full redesign — 3 isolated scanner cards, fixed SBOM result placement, all 21 firmware components, OpenSSL only where relevant, 5-format exports per scanner |
+| **v6.0 (V7)** | Full redesign — 3 isolated scanner cards, fixed SBOM result placement, all 21 firmware components, OpenSSL only where relevant, 5-format exports per scanner |
 | **v5.0** | Added Firmware Scanner with SBOM feed integration, dual HTML+XLSX SCA export |
 | **v4.0** | Improved HTML report design matching CAST Highlight format, policy gates, bar charts |
 | **v3.0** | Excel (.xlsx) export with multi-sheet workbooks |
