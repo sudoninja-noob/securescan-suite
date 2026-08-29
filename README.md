@@ -123,9 +123,9 @@ cd securescan-suite
 # Open SecureScan_Suite_V6_0.html in any modern browser
 ```
 
-### Option 2 — GitHub Pages
+### Option 2 — Visit tool
 ```
-https://sudoninja-noob.github.io/securescan-suite/SecureScan_Suite_V6_0.html
+https://sudoninja-noob.github.io/securescan-suite/
 ```
 
 ### Scanning a manifest (SBOM)
